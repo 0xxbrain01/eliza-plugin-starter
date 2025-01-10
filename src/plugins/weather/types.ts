@@ -1,9 +1,9 @@
-import { Content } from '@ai16z/eliza';
+import { Content } from "@ai16z/eliza";
 
 export interface WeatherConfig {
   provider: {
     apiKey: string;
-    units?: 'metric' | 'imperial';
+    units?: "metric" | "imperial";
     baseUrl?: string;
   };
 }
@@ -14,7 +14,7 @@ export interface WeatherData {
   humidity: number;
   windSpeed: number;
   description: string;
-  units: 'metric' | 'imperial';
+  units: "metric" | "imperial";
 }
 
 export interface WeatherActionContent extends Content {

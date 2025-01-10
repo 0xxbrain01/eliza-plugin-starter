@@ -1,4 +1,8 @@
-import { Content, Service, ServiceType as ElizaServiceType } from '@ai16z/eliza';
+import {
+  Content,
+  Service,
+  ServiceType as ElizaServiceType,
+} from "@ai16z/eliza";
 
 export { ElizaServiceType as ServiceType };
 
@@ -45,7 +49,11 @@ export interface TranslationServiceConfig {
 }
 
 export interface TranslationService extends Service {
-  translate(text: string, targetLang: string, sourceLang?: string): Promise<TranslationServiceResponse>;
+  translate(
+    text: string,
+    targetLang: string,
+    sourceLang?: string,
+  ): Promise<TranslationServiceResponse>;
 }
 
 export interface TranslationServiceResponse {
