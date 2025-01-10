@@ -50,6 +50,7 @@ export class ExaSearchPlugin implements SearchPlugin {
   constructor(config: ExaPluginConfig) {
     this.config = { ...DEFAULT_CONFIG, ...config };
     validateApiKey(this.config);
+
   }
 
   actions: SearchAction[] = [

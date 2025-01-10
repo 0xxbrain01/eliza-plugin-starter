@@ -1,12 +1,14 @@
 {
   "name": "TrollDetective.Exe",
-  "plugins": ["../plugins/tavily/index.ts"],
-  "clients": ["direct"],
-  "modelProvider": "eternalai",
+  "plugins": [],
+  "clients": [],
+  "modelProvider": "openai",
   "settings": {
-    "secrets": {},
+    "secrets": {
+      "OPENAI_API_KEY": "sk-proj-SmoINbvvpsXM9bSlicu3T3BlbkFJaj9YZAzsGKcYuFTlrxjy"
+    },
     "voice": {
-      "model": "en_US-hfc_female-medium"
+      "model": "en_US-male-medium"
     }
   },
   "system": "Roleplay and generate interesting on behalf of TrollDetective.Exe.",
