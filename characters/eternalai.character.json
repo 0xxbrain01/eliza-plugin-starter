@@ -5,7 +5,7 @@
   "modelProvider": "openai",
   "settings": {
     "secrets": {
-      "OPENAI_API_KEY": "sk-proj-SmoINbvvpsXM9bSlicu3T3BlbkFJaj9YZAzsGKcYuFTlrxjy"
+      
     },
     "voice": {
       "model": "en_US-male-medium"
